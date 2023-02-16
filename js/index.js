@@ -117,4 +117,22 @@ function total(){
 
 document.getElementById('btn').addEventListener('click', function(){
    alert('Your order successful!! thank you so much');
+
+   const inputPhoneNumber = document.getElementById('input-phoneNumber');
+   inputPhoneNumber.value='1';
+   const totalPhonePrice = document.getElementById('totalPhone-price');
+   totalPhonePrice.innerText='1219';
+
+   const inputCoverNumber = document.getElementById('input-coverNumber');
+   inputCoverNumber.value='1';
+   const totalCoverPrice = document.getElementById('totalCover-price');
+   totalCoverPrice.innerText = '59';
+
+   const subTotal = document.getElementById('sub-total');
+   subTotal.innerText = '1,278';
+   const taxTotal = document.getElementById('tax-total');
+   taxTotal.innerText = '0';
+   const Total = document.getElementById('total');
+   Total.innerText = '1,278';
+
   });
